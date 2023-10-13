@@ -1,8 +1,12 @@
-<!DOCTYPE html>
-<html>
+@extends('layout.master')
 
-<body>
-    <h1>Sanber Book</h1>
+@section('judul')
+Sanber Book
+@endsection
+
+@section('content')
+
+
     <h2>Social media Developer Santai Berkualitas</h2>
     <h4>Balejar Berbagi agar hidup ini semakin santai berkualitas</h4>
 
@@ -21,6 +25,4 @@
         <li>Mendaftar di <a href="/register">From sing Up</a></li>
         <li>Selesai!!</li>
     </ol>
-</body>
-
-</html>
+    @endsection

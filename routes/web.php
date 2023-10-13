@@ -20,3 +20,11 @@ Route::get('/', [HomeController::class, 'home']);
 Route::get('/register', [AuthController::class, 'register']);
 Route::get('/welcome', [AuthController::class, 'welcome']);
 Route::post('/kirim', [HomeController::class, 'kirim']);
+
+
+Route::get('/table', function () {
+    return view('halaman.table');
+});
+Route::get('data-table', function () {
+    return view('halaman.datatable');
+});
